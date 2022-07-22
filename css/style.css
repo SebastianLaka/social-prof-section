@@ -6,7 +6,12 @@
 }
 
 body {
-  min-height: 100vh;
+  font-family: "LeagueSpartan", sans-serif;
   font-size: 62.5%;
+}
+
+.compoment {
+  position: relative;
+  min-height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */

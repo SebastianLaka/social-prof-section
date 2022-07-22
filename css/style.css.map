@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ADDD,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,KAAK;CACjB",
+    "mappings": "ACAA,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ADAD,AAAA,IAAI,CAAC;EACH,WAAW,EGDD,eAAe,EAAE,UAAU;EHErC,SAAS,EAAE,KAAK;CACjB;;AAED,AAAA,UAAU,CAAA;EAER,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,KAAK;CAClB",
     "sources": [
         "../sass/style.scss",
         "../sass/_reset.scss",
-        "../sass/_colors.scss"
+        "../sass/_colors.scss",
+        "../sass/_font.scss"
     ],
     "names": [],
     "file": "style.css"

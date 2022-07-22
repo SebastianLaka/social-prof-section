@@ -1,9 +1,15 @@
 @import "./reset";
 @import "./colors";
+@import "./font";
 
 body {
-  min-height: 100vh;
+  font-family: $main-font;
   font-size: 62.5%;
 }
 
+.compoment{
+  
+  position: relative;
+  min-height: 100vh;
+}
 
