@@ -1,0 +1,128 @@
+@media (min-width: 1440px) {
+  .component {
+    position: relative;
+
+    .desktop-top-shape {
+      background-image: url(../img/svg/bg-pattern-top-desktop.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      z-index: -1;
+    }
+    .desktop-bottom-shape {
+      background-image: url(../img/svg/bg-pattern-bottom-desktop.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 55%;
+      height: 70%;
+      z-index: -1;
+    }
+
+    .mobile-top-shape {
+      display: none;
+    }
+    .mobile-bottom-shape {
+      display: none;
+    }
+
+    .top-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .left-container {
+        margin: 6em 0;
+        max-width: 500px;
+        &__header {
+          padding: 0;
+          color: $second-font-color;
+          font-size: 3.5rem;
+          line-height: 90%;
+          text-align: left;
+        }
+        &__info {
+          margin: 1.5em 0;
+          padding: 0;
+          font-size: 1.2rem;
+          text-align: left;
+          line-height: 150%;
+        }
+      }
+      .right-container {
+        display: flex;
+        padding: 14em 0;
+        max-width: 900px;
+
+        .opinion-first,
+        .opinion-second,
+        .opinion-third {
+          display: flex;
+          flex-direction: row;
+
+          padding: 0 2em;
+          width: 400px;
+          height: 55px;
+          border-radius: 6px;
+
+          &__description {
+            padding: 0 2em;
+
+            font-size: 0.9rem;
+          }
+
+          &__star {
+            transform: translateX(-50%);
+            padding: 0 1em;
+            margin: 0 1em;
+          }
+        }
+
+        .opinion-first {
+          transform: translateX(-30%);
+        }
+        .opinion-second {
+          transform: translateX(-13%);
+        }
+        .opinion-third {
+          transform: translateX(-7%);
+        }
+      }
+    }
+
+    .bottom-section {
+      flex-direction: row;
+
+      .card-second {
+        transform: translateY(10%);
+      }
+      .card-third {
+        transform: translateY(20%);
+      }
+
+      .card {
+        width: 32%;
+        .info {
+          &__name {
+            font-size: 1rem;
+          }
+
+          &__buyer {
+            font-size: 0.9rem;
+          }
+        }
+
+        &__opinion {
+          font-size: 1.2rem;
+          font-weight: $medium-weight;
+          padding: 0 2em;
+          line-height: 140%;
+        }
+      }
+    }
+  }
+}

@@ -12,14 +12,19 @@
         href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=League+Spartan:wght@400;500;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <main class="component">
-        <img src="./img/svg/bg-pattern-top-desktop.svg" alt="" class="top-shape">
-        <img src="./img/svg/bg-pattern-bottom-desktop.svg" alt="" class="bottom-shape">
+        <div class="mobile-top-shape"></div>
+        <div class="mobile-bottom-shape"></div>
+
+        <div class="desktop-top-shape"></div>
+        <div class="desktop-bottom-shape"></div>
+   
+ 
         <div class="wrapper">
             <section class="top-section">
                 <div class="left-container">
@@ -29,52 +34,80 @@
                 </div>
                 <div class="right-container">
                     <div class="opinion-first">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
+                        <div class="star">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                        </div>
                         <p class="opinion-first__description">Rated 5 Stars in Reviews</p>
                     </div>
                     <div class="opinion-second">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
+                        <div class="star">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                        </div>
                         <p class="opinion-second__description">Rated 5 Stars in Report Guru</p>
                     </div>
                     <div class="opinion-third">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
-                        <img src="./img/svg/icon-star.svg" alt="rated star" class="opinion-first__star">
+                        <div class="star">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                            <img src="./img/svg/icon-star.svg" alt="rated star" class="star_item">
+                        </div>
                         <p class="opinion-third__description">Rated 5 Stars in BestTech</p>
                     </div>
                 </div>
             </section>
+
             <section class="bottom-section">
-                <div class="card-section">
-                    <div class="card-section__customer-card"> 
-                            <p class="card-section__customer">Calton Smith</p>
-                            <p class="card-section__buyer">Verified Buyer</p>
-                            <p class="card-section__opinion">"We needed the same printed design as the one we had ordered a week prior. Not only did they find original order, but we also received it in time. Excellent!"</p>
+                <div class="card">
+                    <div class="card-item">
+                        <img src="./img/person photos/image-colton.jpg" alt="Customer avatar" class="customer-image">
+                        <div class="info">
+                            <p class="info__name">Colton Smith</p>
+                            <p class="info__buyer">Verified Buyer</p>
+                        </div>
+
                     </div>
-                    <div class="card-section__customer-card">
-                        <p class="card-section__customer">Irene Roberts</p>
-                        <p class="card-section__buyer">Verified Buyer</p>
-                        <p class="card-section__opinion">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+                    <p class="card__opinion">" We needed the same printed design as the one we had ordered
+                        a
+                        week prior. Not only did they find original order, but we also received it in time.
+                        Excellent! "</p>
+                </div>
+                <div class="card card-second">
+                    <div class="card-item">
+                        <img src="./img/person photos/image-irene.jpg" alt="Customer avatar" class="customer-image">
+                        <div class="info">
+                            <p class="info__name">Irene roberts</p>
+                            <p class="info__buyer">Verified Buyer</p>
+                        </div>
+
                     </div>
-                    <div class="card-section__customer-card">
-                            <p class="card-section__customer">Anne Wallace</p>
-                            <p class="card-section__buyer">Verified Buyer</p>
-                            <p class="card-section__opinion">"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
+                    <p class="card__opinion">"Customer service is always excellent and very quick turn
+                        around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+                </div>
+                <div class="card card-third">
+                    <div class="card-item">
+                        <img src="./img/person photos/image-anne.jpg" alt="Customer avatar" class="customer-image">
+                        <div class="info">
+                            <p class="info__name">Anne Wallace</p>
+                            <p class="info__buyer">Verified Buyer</p>
+                        </div>
+
                     </div>
+                    <p class="card__opinion">" Put an order with this company and can only praise them for
+                        the very high standard. Will definitely use them again and recommend them to everyone! "</p>
                 </div>
             </section>
 
-            
+
         </div>
     </main>
 </body>
