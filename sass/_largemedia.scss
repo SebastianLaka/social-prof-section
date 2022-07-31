@@ -77,18 +77,18 @@
           &__star {
             transform: translateX(-50%);
             padding: 0 1em;
-            margin: 0 1em;
+            // margin: 0 1em;
           }
         }
 
         .opinion-first {
-          transform: translateX(-30%);
+          transform: translateX(-40%);
         }
         .opinion-second {
-          transform: translateX(-13%);
+          transform: translateX(-29%);
         }
         .opinion-third {
-          transform: translateX(-7%);
+          transform: translateX(-20%);
         }
       }
     }

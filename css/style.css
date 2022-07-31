@@ -359,19 +359,18 @@ body {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     padding: 0 1em;
-    margin: 0 1em;
   }
   .component .top-section .right-container .opinion-first {
-    -webkit-transform: translateX(-30%);
-            transform: translateX(-30%);
+    -webkit-transform: translateX(-40%);
+            transform: translateX(-40%);
   }
   .component .top-section .right-container .opinion-second {
-    -webkit-transform: translateX(-13%);
-            transform: translateX(-13%);
+    -webkit-transform: translateX(-29%);
+            transform: translateX(-29%);
   }
   .component .top-section .right-container .opinion-third {
-    -webkit-transform: translateX(-7%);
-            transform: translateX(-7%);
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
   }
   .component .bottom-section {
     -webkit-box-orient: horizontal;
