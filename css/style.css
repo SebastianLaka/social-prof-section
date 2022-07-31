@@ -339,8 +339,11 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     padding: 0 2em;
-    width: 400px;
+    width: 500px;
     height: 55px;
     border-radius: 6px;
   }
