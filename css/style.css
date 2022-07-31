@@ -339,9 +339,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding: 0 2em;
     width: 500px;
     height: 55px;
@@ -358,7 +357,8 @@ body {
   .component .top-section .right-container .opinion-third__star {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    padding: 0 1em;
+    padding: 0 2em;
+    margin: 0 1em;
   }
   .component .top-section .right-container .opinion-first {
     -webkit-transform: translateX(-40%);

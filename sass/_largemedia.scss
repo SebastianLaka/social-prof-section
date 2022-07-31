@@ -63,7 +63,7 @@
         .opinion-third {
           display: flex;
           flex-direction: row;
-          justify-content: space-evenly;
+          justify-content: space-around;
           padding: 0 2em;
           width: 500px;
           height: 55px;
@@ -76,8 +76,8 @@
 
           &__star {
             transform: translateX(-50%);
-            padding: 0 1em;
-            // margin: 0 1em;
+            padding: 0 2em;
+            margin: 0 1em;
           }
         }
 
